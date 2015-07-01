@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en" data-framework="marionettejs">
+  <head>
+    <meta charset="utf-8">
+    <title>TEST Backbone</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+    <body>
+
+<div id="app-container">
+    <div id="header-region">
+       <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-9" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Books</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-9">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+    </div>
+    <div id="main-region" class="panel panel-default"></div>
+    <div  class="modal fade" role="dialog" id="modalBook">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">Book Information</h4>
+          </div>
+        <div class="modal-body" id="dialog-region">
+          <p>This is a small modal.</p>
+        </div>
+       </div>
+    </div>
+</div>
+<script data-main="js/main" src="bower_components/requirejs/require.js"></script>
+</body>
+</html>

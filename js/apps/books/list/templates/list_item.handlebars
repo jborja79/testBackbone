@@ -1,0 +1,19 @@
+ {{#if title}}
+<td>
+  <div class="row">
+  <div class="col-lg-10">
+    <a href="#" class="thumbnail js-details" data-toggle="modal" data-target="#modalBook">
+      <img src="{{smallThumbnail}}" alt="{{title}}">
+    </a>
+  </div>
+</div>
+  </td>
+<td>
+  <h4>{{title}}</h4>
+  <div class="description">{{description}}</div>
+  </br>
+  By
+  </br>
+  <a>{{authors}}</a>
+</td>
+  {{/if}}
